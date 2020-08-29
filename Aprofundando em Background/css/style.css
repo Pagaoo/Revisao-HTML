@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, boyd {
+    height: 100%;
+}
+
+.bg {
+    width: 100vw;
+    height: 40vh;
+    background-image: url("../images/fate-stay-night-5k-60-2560x1080.jpg");
+    background-position: center; /*50% 100%; O primeiro valor diz respeito á posição horizontal e o segundo á vertical*/
+    background-color: red;
+    background-repeat: no-repeat;
+    background-size: 50vw 30vh;
+    background-attachment: scroll;
+}
+
+.box {
+    width: 900px;
+    height: 2000px;
+    margin: 10rem auto;
+    background-color: rgb(100, 100, 100);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.item {
+    display: inline-block;
+    margin: 0 10px;
+}

@@ -1,0 +1,28 @@
+.artigo{
+    width: 1280px;
+    padding: 40px;
+    margin:40px auto;
+    text-align: center;
+    background-color: black;
+}
+.artigo h1{
+    color: aqua;
+    font-size: 65px;
+    font-family: "Arial", Helvetica, sans-serif;
+    font-style: italic;
+    /*font-weight: bold;*/
+    /*font-weight: 600px;*/
+    font-weight: bold;
+    font-variant: small-caps; /*Coloca todas as letras como de forma, só que um pouco menor da letra maiúscula*/
+}
+
+.artigo p{
+    font-size: 20px;
+    font-family: "tahoma";
+    color: lightcoral;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 25px; /*Entrelinhas*/
+}

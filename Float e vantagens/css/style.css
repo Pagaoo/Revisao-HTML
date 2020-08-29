@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,body {
+    height: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+.pai {
+    width: 1280px;
+    padding: 20px 0;
+    margin: 0 auto;
+    background: blue;
+}
+
+.child {
+    width: 640px;
+    height: 300px;
+    background: red;
+    float: left;/*posiciona e formata um elemento, sendo para left ou right
+    e por padrão o float vem com none*/
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 60px;
+    padding: 100px 0;
+    color: indigo;
+    
+}

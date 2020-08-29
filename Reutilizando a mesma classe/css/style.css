@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    height: 100%;
+}
+
+.conteudo {
+    color: chartreuse;
+}
+
+.link_ {
+    text-decoration: none;
+    font-size: 30px;
+    color: darkblue;
+}
+

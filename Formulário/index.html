@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/style/form.css" rel="stylesheet">
+    <title>Formulário Profissional</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Meu Formulário</legend>
+            <div><input type="text" name="name" placeholder="Digite seu nome"/></div>
+            <div><input type="text" name="email" placeholder="Digite seu e-mail"/></div>
+            <div>
+                <select name="list">
+                    <option disabled selected>Determine sua idade</option>
+                    <option>20 anos</option>
+                    <option>25 - 40 anos</option>
+                    <option>40+ anos</option>
+                </select>
+            </div>
+
+            <h2>Escolha sua cidade</h2>
+            <div class="input">
+                <div>
+                    <input type="radio" name="city" value=""/><span>Vitória</span>
+                </div>
+                <div>
+                    <input type="radio" name="city" value=""><span>Rio de Janeiro</span>
+                </div>
+                <div>
+                    <input type="radio" name="city" value=""><span>São Paulo</span>
+                </div>
+
+                <h2>O que você gosta de comer?</h2>
+                <div class="input">
+                    <div>
+                        <input type="checkbox" name="food" value=""/><span>Massa</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="food" value=""/><span>Fast-food</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="food" value=""/><span>Salada</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <textarea placeholder="Possui alguma observação?"></textarea>
+            </div>
+
+            <div>
+                <input type="submit" name="action" value="send"/>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

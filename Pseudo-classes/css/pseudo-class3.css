@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100vh;
+}
+
+.parent {
+    width: 100vw;
+    padding: 90px 0;
+    text-align: center;
+    background-color: #069;
+}
+
+.item {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    margin: 20px 0;
+}
+
+/* Vai pegar a primeira div e vai pular uma e aplicar a propriedade na outra
+.parent > div:nth-of-type(2n + 1) > div.item{
+    background-color: red;
+} 
+*/
+
+/* 
+.parent > div:first-child > div.item {
+    background-color: purple;
+} */
+
+/* Só funciona se o p estiver em primeiro, diferentemente do :first-of-type
+.parent p:first-child {
+    color: pink;
+} */
+
+.parent p:first-of-type {
+    color: orange;
+}

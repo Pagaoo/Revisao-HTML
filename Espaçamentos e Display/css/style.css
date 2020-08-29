@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,body {
+    height: 100%;
+}
+
+.central {
+    width: 1280px;
+    margin: 0 auto;/*Usa-se para centralizar os elementos*/
+    /*box-sizing: border-box; Cria uma especie de caixa*/
+    background-color: green;
+    /*padding-left: 30px; /*Coloca espaçamento interno, para fora*/
+
+    
+}
+
+.artigo {
+    /*margin: 50px 30px 50px 30px; /*Usa-se o sentido horario para definir as margens,
+      top, right, bottom, left*/
+    /*margin: 50px 30px; /*Aqui se define no primeiro elemento, as amrgens de cima e de baixo
+    e no segundo elemento as margens da direita e da esquerda*/
+    margin-top: 30px;
+    width: 640px;
+    display: inline-block; /*Se usa para as divs ficarem na mesma linha*/
+    margin-right: -4px; /*Coloca-se para retirar os 4px de margin colocados pelo inline-block. Assim
+    as divs ficam na mesma linha*/
+    vertical-align: top; /*Propriedade para que aja alinhamento vertical e se algum texto for retirado ou adicionado
+    as divs não fiquem alinhadas de forma errada, como um paragrafo alinhado em cima e o outro em baixo. OBS: as divs
+    já estão alinahdas na vertical!!!*/
+    box-sizing: border-box;
+    border: 5px solid rgba(255,255,255,0) /*rgba pode-se aplicar transparência na cor e rgb só cor*/
+}

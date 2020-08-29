@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+/*
+.table1 {
+    width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse; /*As bordas externas e internas viram uma só
+}
+
+table tr td {
+    border: 2px solid black;
+    background-color: gray;
+    height: 200px;
+    vertical-align: top;
+}
+*/
+
+.menu-fixed {
+    position: fixed; /*Com essa função se pode também alocar o objeto com as funções rigt, left, top e bottom!
+    Além do fixed, há também o absolut, sticky, relative e static*/
+    width: 100%;
+    height: 200px;
+    background: #069;
+}
+
+.box {
+    width: 100%;
+    height: 1400%;
+    background: green;
+}

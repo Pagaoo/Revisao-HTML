@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100vh;
+}
+
+.teste, .teste1, .teste2 {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    background-color: gray;
+}
+
+.teste1 {
+    background-color: rgb(98, 98, 98);
+}
+
+.teste2 {
+    background-color: rgb(50, 50, 50);
+}
+
+/*Pode-se usar o hover em qualquer propriedade. O efeito do hover acontece quando se passa o mouse na
+área do elemento que se está utilizando o hover
+.teste:hover {
+    background-color: blue;
+    height: 500px;
+}
+
+.teste:hover, .teste1, .teste2 {
+    vertical-align: top;
+}
+*/
+
+/* O active aciona quando se mantém o mouse pressionado em cima do elemento
+.teste:active {
+    background-color: red;
+}
+*/
+
+/*Dá foco com o clique do mouse, se usa em elementos do tipo texto, como formulários
+.testeT:focus {
+    background-color: red;
+}
+*/
+
+/* Da cor ao link
+.link1 {
+    text-decoration: none;
+}
+
+.link1:link {
+    color: pink;
+}
+*/

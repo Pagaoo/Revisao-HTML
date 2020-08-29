@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,body {
+    height: 100%;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    background: indigo;
+    margin: 0 auto;
+    overflow: auto;
+    /*specifies whether to clip the content or to add scrollbars when the content 
+    of an element is too big to fit in the specified area. Pode ser separado nos eixos x e y, tudo
+    dependerá de como o site será estilizado*/
+}

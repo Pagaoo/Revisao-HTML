@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+input[type="submit"] {
+    background-color: lightseagreen;
+}
+
+/*
+a[href] {
+    background-color: khaki;
+}Ataca os links com atributo de href, não necessariamente precisará ser href, pode-se atacar o atributo target="_blank",
+por exemplo!
+
+a[href="https://www.google.com"] {
+    background-color: lawngreen;
+}Especificando o valor do atributo, se ataca somente o href com esse valor atribuido.
+
+a[href*="google"], a[href*="danki"] {
+    background-color: lightcoral;
+} Ataca todos os links com atributo  href que contém a palavra google ou a palavra danki. As palavras usadas tem que
+pertencer ao link, já que está sendo atacado o atributo href.
+
+a[attr~="google"] {
+    background-color: red;
+}Usando o ~ ele procura no atributo atribuido a palavra designada. Porém esse atributo necessita de possuir
+palavras separada por espaço, além de que a palavra precisa ser exatamente igual, diferente do * que a palavra não
+precisa ser igual, uma parte dele já funciona a atribuição.
+
+a[class|=atributo] {
+    background-color: black;
+} Seleciona a classe com inicio atributo ou qualquer que seja o nome, nomes com hífen também funcionam e tem que ser
+uma palvra completa
+
+a[href^="https"] {
+    background-color: red;
+} Seleciona todos os atributos que começam com https, e a paralvra não necessita de ser inteira.
+Por exemplo, quero marcar google, assim posso usar o atributo goo para selecionar a palavra google.
+
+a[href$="com"] {
+    background-color: lightcoral;
+} Seleciona os atributos terminados com a palabra com ou qual seja a palavra. Não precisa ser uma palavra inteira!*/
+
+/*LEMBRANDO QUE PODEM SER USADOS COM CLASS TAMBÉM, NÃO SÓ VALORES DE TAGS*/

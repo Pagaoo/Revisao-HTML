@@ -1,0 +1,25 @@
+/*Usar o '*' significa aplicar estilo em todos os elementos do html*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    width: 400px;
+    margin: 10px auto; /*Seta a div no meio, o auto, vem de autómatico*/
+    text-align: center;
+    
+}
+/*Quanto maior a especificação, a maior sempre se sobresai. No caso, aqui chamamos a div e a classe, já em cima somente a classe,
+ou seja, está mais especificado!!
+div.menu{
+    width: 400px;
+} */
+.menu > a{
+    color: royalblue;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 10px;
+    border-right: 3px solid;
+    border-color: seagreen;
+    padding-right: 8px;
+}

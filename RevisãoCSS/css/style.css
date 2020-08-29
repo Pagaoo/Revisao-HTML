@@ -1,0 +1,18 @@
+/* Desse jeito se ataca apenas a tag filha, que está diretamente na div, 
+caso tenha uma div em outra div, não será uma tag filha e não funcionará
+#div1 > h1 {
+    color: blue; 
+} */
+/* Aqui selecionará todas as tag h1 da div com id div1, independente se
+estiver em outra div na div1.
+#div1 h1 {
+    color: blueviolet;
+}*/
+/* Aqui se chama a classe e não o ID da div
+.divClasse h1 {
+    color: chocolate;
+}*/
+
+/*O ID de classe deve ser usado se houver apenas um único, exemplo: div1, div2, etc. Nunca usado
+se houver um ID repetido, div1 e div1. Quando houver repetição, utilizar classe. O CSS até lê e
+tolera, porém o javascript não!. Normalmente se marca as divs por classe*/

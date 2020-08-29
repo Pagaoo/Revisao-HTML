@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    height: 100%;
+}
+
+ul.lista, ul.lista-2 {
+    list-style-position: inside; /*Posiciona a lista dentro da box do site, no caso, dentro das margens definidas*/
+    list-style-type: disc;
+    margin-left: 25px;
+}
+
+.lista li, .lista-2 li {
+    font-size: 40px;
+    color: crimson;
+    margin-top: 20px;
+}
+
+.lista .item-3, .lista-2 .item-3 {
+    color: darkblue;
+}
+
+/*é uma tag mais especifica, logo reescreverá a cor*/
+/*.lista li.item-3 {
+    color: darkmagenta;
+}*/
+
+.lista-Ol {
+    list-style-position: inside;
+    margin-left: 25px;
+    color: darkturquoise;
+    list-style-type: lower-greek;
+    font-size: 40px;
+}
+
+.lista-Ol .produto-2 {
+    color: deeppink;
+    font-weight: bold;
+}
+
+.um {
+    height: 500px;
+    width: 500px;
+    background-color: deepskyblue;
+}
+
+/*O sinal > ataca as classes que estão diretamente ligadas umas as outras, por exemplo, as classes dois e tres estão dentro da classe
+ um. Porém a classe quatro está dentro da classe tres, logo se utilizassemos a .um > .quatro, não funcionaria*/
+.um > .dois {
+    height: 300px;
+    width: 300px;
+    background-color: gold;
+}
+
+.um > .tres {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+/*Pode-se usar outra metodologia de escrita, além de .tres > .quatro*/
+.tres > .quatro {
+    height: 50px;
+    width: 50px;
+    background-color: indigo;
+}
+
+/*Pode-se usar essa escrita, que é mais especifica que a escrita de cima, então ela reescreve a de cima por ser mais
+especifica*/
+/*.um > .tres > .quatro {
+    height: 50px;
+    width: 50px;
+    background-color: black;       
+}*/
+
+/*A escrita: .um .quatro. Também fuinciona, já que ataca a div quatro independente de onde
+elas está, pois o sinal de ">" destaca uma div herdando de outra div*/
+/*.um .quatro {
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+}*/

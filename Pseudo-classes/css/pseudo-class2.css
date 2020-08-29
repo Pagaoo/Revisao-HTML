@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100vh;
+}
+
+/*Usado para visualizar as bolinhas*/
+ul {
+    list-style-position: inside;
+}
+
+/*A propriedade ataca o segundo termo do tipo li, individualmente, ou seja,
+o estilo só se aplica á segunda linha da ul do tipo li
+ul li:nth-of-type(2) {
+    color: red;
+}
+*/
+
+/*Essa propriedade diz respeito aos filhos de ul, independente do tipo, será o terceiro,
+dentre os do tipo escolhido, no caso li ou span.
+ul span:nth-child(1) {
+    color: red;
+}
+
+ul li:nth-child(3) {
+    color: pink;
+}
+*/
+
+.box {
+    width: 100vw;
+}
+
+.box > div {
+    box-sizing: border-box;
+    float: left;
+    width: 33.3%;
+    height: 400px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+/*Insere algo antes ou depois do elemento escolhido, nesse caso, p*/
+.one > p::after {
+    content: " Four";
+    background-color: aquamarine;
+}
+
+.one > p::before {
+    content: "Zero ";
+    background-color: blueviolet;
+}
+
+/* Ataca o(s) p's que estão vazios
+p:empty {
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+}
+*/
+
+/* Ataca todas as classe que não tem como classe a classe One
+.box > div:not(.one) {
+    background-color: aqua;
+}
+*/
+
+/*Ataca o ultimo termo do tipo escolhido, nesse caso, div e p
+.box > div:last-of-type, .box > p:last-of-type {
+    background-color: green;
+    color: rgb(200, 200, 200);
+}*/
+
+/*Pega o último elemento p da div dentro da classe box
+.box > div:last-of-type p {
+    color: rgba(255, 255, 255, 1);
+}
+
+ou
+
+.box > div:last-child p {
+    color: rgba(100, 100, 100, 1);
+}
+*/
+

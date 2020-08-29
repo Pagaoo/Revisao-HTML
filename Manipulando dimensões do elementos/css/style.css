@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Tem que se definir tag pai para height, pois, não se vem 100% por padrão.*/
+html,body {
+    height: 100%;
+}
+
+.artigo {
+    width: auto; /*Quando está automático ficará sempre no tamanho da tela do navegador. Usa-se porcentagem quando se
+    espera um desgin responsivo, ou seja, ficará sempre setado pra compor a porcentagem escolhida da tela*/
+    height: 100%; /*Precisa definir a tag pai para funcionar. Não é ideal definir altura pra divs com muitos textos ou elementos
+    que podem vir a ultrapassar o máximo. Por isso usa-se o height = auto, para ter uma responsividade*/
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.artigo h1 {
+    color: crimson;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.artigo p {
+    text-align: justify;
+    color: chartreuse;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 40px;
+    margin-top: 12px;
+}

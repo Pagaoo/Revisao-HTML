@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,body {
+    height: 100%;
+}
+
+.bg {
+    width: 500px;
+    height: 1500px;
+    margin: 0 auto;
+
+    /*BackGrounds*/
+
+    background-color: aqua;
+    background-image: url('../image/dripnine.png');
+    background-size: contain;/*O primeiro valor é o tamanho horizontal e o segundo o vertical, o tamanho é com
+    base nos valores do bg, heigth e width. Não é necessário usar porcetagem, pode ser qualquer unidade de medida
+    disponivel no css. Há ainda o valor cover, que cobre o bg, quando usado, o valor em porcentagem não surte efeito.
+    O valor contain, resize the background image to make sure the image is fully visible*/
+    background-position: center; /*A posição se baseia nos eixos x e y*, respectivamente*/
+    background-repeat: no-repeat; /*Há também o atributo no-repeat, que não deixar a imagem ser repetida*/
+    background-attachment: scroll;
+    /*background: red url('../image/dripnine.png') no-repeat center;*/
+
+
+}
