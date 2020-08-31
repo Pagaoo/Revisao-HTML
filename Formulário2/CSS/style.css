@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100vh;
+}
+
+/* input[type="file"] {
+    display: none;
+}
+
+label {
+    display: block;
+    margin: 10px auto;
+    width: 220px;
+    height: 80px;
+    background-color: aquamarine;
+    color: bisque;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    font-size: 30px;
+} */
+
+form {
+    text-align: center;
+    background-color: coral;
+}
+
+/* form select {
+    width: 220px;
+    height: 40px;
+    padding-left: 20px;
+    border: none;
+    background-image: url("../images/arrow.png");
+    background-size: 10px 10px;
+    background-repeat: no-repeat;
+    background-position: 96% 20px;
+    appearance: none;
+    /*Webkit é para a personalização funcionar no chrome e no safari e o moz para o mozilla firefox
+    -webkit-appearance: none;
+    -moz-appearance: none;   
+} */
+
+/*Usado para a personalização do select funcionar no Internet Explorer
+select::-ms-expand{
+    display: none;
+} */
+
+input[type=checkbox] {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    margin: 0 60px;
+    width: 30px;
+    height: 30px;
+    background-color: aquamarine;
+}
+
+/*Usa o +, significa que aplicará o estilo na label logo após a checkbox*/
+input[type=checkbox]:checked + label {
+    background-color: blueviolet;
+    width: 100px;
+}
