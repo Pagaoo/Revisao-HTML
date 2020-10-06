@@ -1,0 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html, body{
+  height: 100vh;
+  font-family: 'Sansita Swashed';
+}
+
+form  * {
+  font-family: 'Sansita Swashed';
+}
+
+/*
+.box p {
+  font-family: 'Sansita Swashed';
+}
+
+/*O !important reescreve o atributo passando por cima da especificidade. Se
+os dois atributos conterem o !important a especificidade prevalece
+.text {
+  font-family: 'Franklin Gothic Medium'!important;
+}
+
+h2 {
+  font-family: 'Sansita Swashed';
+}
+*/
